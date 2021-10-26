@@ -146,18 +146,15 @@ def circle():
     print(" Your radius is", radius)
 
 def pi2():
-    n = eval(input"Enter value for n:")
-    terms_to_sum = eval(input"Enter the number of terms to sum:")
+    n = eval(input("Enter value for n:"))
+    terms_to_sum = eval(input("Enter the number of terms to sum:"))
     sum = 0
     for i in range (terms_to_sum):
 
 
 
 def main():
-    squares()
     rectangle()
-    circle()
-    pi2()
 
 
 main()
